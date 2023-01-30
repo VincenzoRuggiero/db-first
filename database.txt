@@ -1,0 +1,16 @@
+Nome database = Auto
+
+    id - PRIMARY_KEY
+    marca - stringa - VARCHAR(20) | NOTNULL
+    modello - stringa - VARCHAR(20) | UNIQUE
+    anno - data - YEAR
+    km0 - numero - TINYINT
+    km fatti - numero - MEDIUMINT
+    carburante - stringa - VARCHAR(20)
+    potenza CV - numero - SMALLINT
+    cambio - stringa - VARCHAR(20)
+    numero posti - numero - TINYINT 
+    numero porte - numero - TINYINT | NOTNULL
+    emissioni - stringa - VARCHAR(20)
+    prezzo - numero - FLOAT | NOTNULL
+    città - stringa - VARCHAR(50)
